@@ -1,0 +1,23 @@
+{
+  "name": "dns-server",
+  "version": "1.0.0",
+  "description": "A basic dns-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "dns",
+    "node"
+  ],
+  "author": "Sugata Laha",
+  "license": "ISC",
+  "dependencies": {
+    "dns-packet": "^5.6.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.8.2",
+    "node-cache": "^5.1.2",
+    "nodemon": "^3.1.7"
+  }
+}
